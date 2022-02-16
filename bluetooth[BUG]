@@ -1,0 +1,60 @@
+---
+name: Bluetooth bug
+about:Whatsapp Crash while calling.
+title: "[BUG]"
+labels: bug, help wanted
+assignees: 'SHUBHAM B(@sb6596)'
+
+---
+
+<!-- INSTRUCTIONS
+What not to report
+- Bugs in unofficial builds or anything not downloaded from our official portal
+- Missing Builds
+- Problems with the website
+- Asking for device support
+- Feature requests
+Anything between <!- - and - -> won't be shown when your issue is created. 
+-->I am facing an issue like whenever Bluetooth is on and I call someone on WhatsApp, it crashes WhatsApp. But when Bluetooth is off WhatsApp calling works fine.
+
+## Expected Behavior
+Bluetooth on/off Whatsapp should connect calls normally.
+
+## Current Behavior
+Whatsapp crashes everytime on both voice and videocalls while bluetooth is on.
+
+## Possible Solution
+In about phone it says unavailable in bluetooth address option maybe this?
+
+## Steps to Reproduce
+Steps to reproduce the behavior:
+<!--- Provide a link to a live example, or an unambiguous set of steps to -->
+<!--- reproduce this bug. Include code to reproduce, if relevant -->
+1. Wipe 5:vendor,data,dalvik,cache,system. Just install the rom 
+2.open whatsapp with bluetooth on
+3.call 
+4.whatsapp should crash
+
+## Screenshots
+If applicable, add screenshots to help explain your problem.
+
+##crashlog:
+link: https://paste.crdroid.net/BA0FE8
+I'll attach my logs.
+
+## Device Details
+<!-- THIS SECTION IS MANDATORY. If it is not filled out correctly, your issue will be marked as invalid. -->
+<!-- Example:
+/device mako (found at https://downloads.aospextended.com/download/RMX1801/s_gapps/AospExtended-v9.0-RMX1801-OFFICIAL-20220216-0034.zip)
+/version 9.0
+/date 16/02/2022
+/kernel: 4.4.302-lineageos 
+/mods Gapps build
+-->
+
+
+/device Realme 2 pro(rmx 1801) (found at https://downloads.aospextended.com/download/RMX1801/s_gapps/AospExtended-v9.0-RMX1801-OFFICIAL-20220216-0034.zip)
+/aospextended_version 9.0
+/date 16/02/2022
+/kernel 4.4.302-lineageos 
+/mods Gapps build(no mods / not rooted or anything)
